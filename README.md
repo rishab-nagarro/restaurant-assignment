@@ -8,7 +8,7 @@ It provides endpoints to calculate bills for orders and to retrieve food items f
 ### 1. Calculate Bill
    - Method: POST
    - Path: /calculate/bill
-   - Request Body: `curl --location 'localhost:8080/order/calculate/bill' \
+   - Request Body: `curl --/order/calculate/bill' \
      --header 'Content-Type: application/json' \
      --data '{
      "items": [
